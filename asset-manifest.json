@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/BojackHorsemanyesiambojack.github.io/toDoApp/static/css/main.1000b1e7.css",
+    "main.css": "/BojackHorsemanyesiambojack.github.io/toDoApp/static/css/main.e457a081.css",
     "main.js": "/BojackHorsemanyesiambojack.github.io/toDoApp/static/js/main.a760ac8f.js",
     "static/media/Vault.png": "/BojackHorsemanyesiambojack.github.io/toDoApp/static/media/Vault.b0e0bf82581d2d3cf641.png",
     "static/media/Vault-boy.png": "/BojackHorsemanyesiambojack.github.io/toDoApp/static/media/Vault-boy.92eb94c87e31dcd03f86.png",
     "static/media/Strength.png": "/BojackHorsemanyesiambojack.github.io/toDoApp/static/media/Strength.f70caa45d29e3194c4d4.png",
     "index.html": "/BojackHorsemanyesiambojack.github.io/toDoApp/index.html",
-    "main.1000b1e7.css.map": "/BojackHorsemanyesiambojack.github.io/toDoApp/static/css/main.1000b1e7.css.map",
+    "main.e457a081.css.map": "/BojackHorsemanyesiambojack.github.io/toDoApp/static/css/main.e457a081.css.map",
     "main.a760ac8f.js.map": "/BojackHorsemanyesiambojack.github.io/toDoApp/static/js/main.a760ac8f.js.map"
   },
   "entrypoints": [
-    "static/css/main.1000b1e7.css",
+    "static/css/main.e457a081.css",
     "static/js/main.a760ac8f.js"
   ]
 }
