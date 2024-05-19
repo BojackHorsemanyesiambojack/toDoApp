@@ -8,12 +8,11 @@
   border:1px solid green;
   padding: 2px;
   box-sizing: border-box;
-  line-height: 1.5;
-  white-space: pre-wrap;
   max-width: 15rem;
   overflow-y: auto;
   word-wrap: break-word;
   padding: 5px;
+  min-width: 2.6rem;
 }
 
 .container{
