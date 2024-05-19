@@ -16,6 +16,7 @@ function Input(props) {
     }
     console.log(newWork);
     props.onSubmit(newWork);
+    setInput('')
   }
 
   return (
@@ -24,6 +25,7 @@ function Input(props) {
       <input 
       type='text'
       onChange={(e)=> setInput(e.target.value)}
+      value={input}
        />
         <Button size = "">Add homework</Button>
 
