@@ -1,0 +1,16 @@
+input{
+    background-color: black;
+    color:green;
+    width:100%;
+    font-family: "Share Tech Mono", monospace;
+  font-weight: bolder;
+  font-style: normal;
+  border:none;
+  border-radius: 0.3rem;
+  padding:10px;
+}
+
+.input{
+  width: auto;
+  gap:1rem;
+}

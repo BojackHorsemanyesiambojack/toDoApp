@@ -1,0 +1,22 @@
+button{
+    background-color: black;
+    color:rgb(38, 187, 38);
+    font-family: "Share Tech Mono", monospace;
+  font-weight: bolder;
+  font-style: normal;
+  border:none;
+  border-radius: 0.1rem;
+  padding: 1rem;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(38, 187, 38);
+    color: black;
+}
+
+.small{
+  height: 20px;
+  width: 100px;
+  justify-content: center;
+}
