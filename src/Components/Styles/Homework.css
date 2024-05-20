@@ -8,7 +8,7 @@
   border:1px solid green;
   padding: 2px;
   box-sizing: border-box;
-  max-width: 15rem;
+  max-width: 12rem;
   overflow-y: auto;
   word-wrap: break-word;
   padding: 5px;
@@ -39,15 +39,29 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 8%;
+  width: 9.2rem;
 }
 
-@media (max-width:500px) {
+@media (max-width:550px) {
+  .img-container{
+  }
+}
+
+@media (max-width:520px) {
   .container{
-    gap:0.2rem;
+    padding-left: 0.3rem;
   }
 
+  .homework{
+    max-width:8rem;
+    margin-left: 1rem;
+  }
   .img-container{
     flex-wrap: wrap;
+    width: 2rem;
+  }
+
+  .buttons{
+    gap:0.3rem;
   }
 }
