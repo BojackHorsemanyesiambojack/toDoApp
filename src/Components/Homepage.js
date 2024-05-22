@@ -21,6 +21,7 @@ function Homepage() {
     const deleteWork = id => {
       const worksUpdate = works.filter (work => work.id !== id);
       setWorks(worksUpdate);
+      saveData(worksUpdate);
     }
 
     const completeWork = id => {
@@ -30,6 +31,7 @@ function Homepage() {
         }return work;
       })
       setWorks(worksUpdate);
+      saveData(worksUpdate);
     }
 
     const saveData = newWork => {
