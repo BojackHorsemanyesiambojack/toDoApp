@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Button from './Button';
 import Vr from './Helpers/Vr';
 import Homework from './Homework';
@@ -14,6 +14,7 @@ function Homepage() {
     
       const worksUpdate = [work, ...works]
       setWorks(worksUpdate);
+      saveData(worksUpdate);
     }
     }
 
@@ -31,6 +32,18 @@ function Homepage() {
       setWorks(worksUpdate);
     }
 
+    const saveData = newWork => {
+      localStorage.setItem('Works',JSON.stringify(newWork));
+    }
+
+    useEffect(() => {
+      const getData = localStorage.getItem('Works');
+      
+        if(getData){
+        setWorks (JSON.parse(localStorage.getItem('Works')));
+      }
+    },[])
+  
   return (
     <div className='homepage'>
       <div className='header-title row center'>

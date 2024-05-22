@@ -14,7 +14,6 @@ function Input(props) {
       text:input,
       completed:false
     }
-    console.log(newWork);
     props.onSubmit(newWork);
     setInput('')
   }
